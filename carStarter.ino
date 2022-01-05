@@ -83,7 +83,7 @@ void setup(){
     Serial.print('\t');
   }
   if(!versiondata){
-      Serial.println(F("Didn't find PN53x board"));
+      Serial.println(F("No se encontro lector PN53x"));
       buzzer(5,500);
       while(1){
           digitalWrite(led, HIGH);
